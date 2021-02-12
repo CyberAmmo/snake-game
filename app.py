@@ -125,8 +125,8 @@ def draw_grid(w, rows, surface):
         x += size_between
         y += size_between
 
-        # pygame.draw.line(surface, (0,0,0), (x,0), (x,w))
-        # pygame.draw.line(surface, (0,0,0), (0,y), (w,y))
+        # pygame.draw.line(surface, (255,255,255), (x,0), (x,w)) white grid if you need it 
+        # pygame.draw.line(surface, (255,255,255), (0,y), (w,y))
 
 
 def redraw_window(surface):
